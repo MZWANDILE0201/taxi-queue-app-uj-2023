@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 4015;
 
 // passenger joins the queue
 app.post('/api/passenger/join', (req, res) => {
+    
     res.json({
         message : 'join queue'
     })
